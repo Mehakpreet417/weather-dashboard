@@ -1,0 +1,55 @@
+.weather-ui {
+  background-image: url('../images/2_no_clouds_4k.jpg');
+  margin: 0;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  align-items: left;
+  color: darkblue;
+  margin-top: 0;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h2{
+   text-align: center;
+   color: green;
+}
+
+.weather-card {
+  background-color: rgba(173, 216, 230, 0.7); /* Light blue color with opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  vertical-align: middle;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: row;
+}
+
+.data{
+  padding: 0 1rem;
+  color:darkgoldenrod;
+  font-weight: bold;
+}
